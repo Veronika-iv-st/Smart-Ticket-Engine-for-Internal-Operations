@@ -5,6 +5,16 @@ AI-driven classification, duplicate handling, and team coordination — built wi
 🧠 Overview
 This project provides a minimal yet powerful internal ticketing solution powered by OpenAI's GPT-3.5. Designed for small to medium-sized businesses, the system enables employees to submit issues or requests through a user-friendly interface. The ticket is automatically classified by department using AI, and duplicate tickets are detected and consolidated.
 
+
+
+## 🖼️ Preview
+
+Here’s a visual preview of the Smart Ticket Engine interface in action:
+
+![Smart Ticket Interface](media/Captura%20de%20pantalla%202025-06-24%20222440.png)
+
+
+
 The system enhances internal communication, reduces redundant tasks, and ensures teams only work on relevant, verified incidents.
 
 🔧 Key Features
