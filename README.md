@@ -74,21 +74,26 @@ env
 OPENAI_API_KEY=your_openai_api_key_here
 
 
-🗂️ Project Structure
+📁 **Project Structure**
+
+```
+.
 ├── app/
-│ ├── main.py # FastAPI app and endpoints
-│ ├── core.py # Ticket processing and classification logic
-│ └── templates/
-│ └── index.html # Frontend interface
-├── data/ # Ticket files per department (editable manually)
-│ ├── operaciones.txt
-│ ├── soporte_tecnico.txt
-│ └── recursos_humanos.txt
-├── media/ # Screenshots or media (optional)
-│ └── Captura de pantalla 2025-06-24 222440.png
-├── .env # Contains your OpenAI API key
-├── requirements.txt # Optional - for saving dependencies
+│   ├── main.py                 # FastAPI app and endpoints
+│   ├── core.py                 # Ticket processing and classification logic
+│   └── templates/
+│       └── index.html          # Frontend interface
+├── data/                       # Ticket files per department (editable manually)
+│   ├── operaciones.txt
+│   ├── soporte_tecnico.txt
+│   └── recursos_humanos.txt
+├── media/                      # Screenshots or media (optional)
+│   └── Captura de pantalla 2025-06-24 222440.png
+├── .env                        # Contains your OpenAI API key
+├── requirements.txt            # Optional - for saving dependencies
 └── README.md
+```
+
 
 
 🔄 How It Works (Step-by-Step)
