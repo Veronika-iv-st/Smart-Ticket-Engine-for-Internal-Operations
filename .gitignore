@@ -4,3 +4,38 @@
 
 # LangGraph
 .langgraph_api/
+# Entorno virtual
+venv/
+.venv/
+
+# Configuraciones de entorno
+.env
+.env.*
+
+# Archivos de Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+
+# Datos generados en tiempo de ejecución
+*.sqlite3
+*.db
+*.pkl
+
+# Carpetas de datos (si decides ignorarlas)
+data/
+vectorstore/
